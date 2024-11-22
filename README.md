@@ -43,3 +43,17 @@ Redux is a state management library for JavaScript apps. It helps manage the app
  Reducer Updates State: Based on the action’s type and payload.
  
  Get New State: Components react to the updated state
+
+### Memoized Selectors (Re-Select)
+
+For more advanced use cases, you can use libraries like reselect to create memoized selectors. These selectors cache their results and only recompute when the state they depend on changes. This can improve performance in large apps by avoiding unnecessary recalculations.
+
+### Why Use Selectors?
+Encapsulation: Selectors allow you to encapsulate the logic for extracting data, which keeps your components cleaner.
+
+Reusability: You can reuse selectors across different parts of your app.
+
+Performance: Selectors can be optimized to prevent unnecessary recalculations of derived state (using memoization).
+
+## Redux-Saga
+Redux-Saga is a middleware library for handling side effects (e.g., API calls, delays, or accessing browser storage) in a Redux application. It uses generators (a special type of JavaScript function) to make async flows more readable and maintainable.
