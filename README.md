@@ -57,3 +57,8 @@ Performance: Selectors can be optimized to prevent unnecessary recalculations of
 
 ## Redux-Saga
 Redux-Saga is a middleware library for handling side effects (e.g., API calls, delays, or accessing browser storage) in a Redux application. It uses generators (a special type of JavaScript function) to make async flows more readable and maintainable.
+
+## Why Use Redux-Saga?
+Centralized Side Effect Management: Keeps all your async operations in one place.
+Improved Readability: Generator functions make async code look synchronous.
+Powerful Effects: Built-in effects like call, put, and takeEvery make handling complex flows easy.
