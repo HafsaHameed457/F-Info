@@ -28,4 +28,7 @@ Redux is a state management library for JavaScript apps. It helps manage the app
 
  Selectors can be used to get the state, manipulate it, or even compute derived values without directly modifying the store.
 
- 
+6. Subscription
+ Components subscribe to the store to get updates whenever the state changes.
+
+ Whenever the reducer updates the state, the store notifies the subscribers.
