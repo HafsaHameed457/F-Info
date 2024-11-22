@@ -32,3 +32,14 @@ Redux is a state management library for JavaScript apps. It helps manage the app
  Components subscribe to the store to get updates whenever the state changes.
 
  Whenever the reducer updates the state, the store notifies the subscribers.
+
+
+### Flow Summary in Code
+
+ Create Store: Use createStore with a reducer.
+
+ Dispatch Actions: Send actions using dispatch().
+ 
+ Reducer Updates State: Based on the action’s type and payload.
+ 
+ Get New State: Components react to the updated state
