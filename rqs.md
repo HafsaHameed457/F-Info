@@ -64,3 +64,6 @@ A “key” is a special string attribute you need to include when creating list
 ## Explain the use of render method in React?
 
 React renders HTML to the web page by using a function called render(). The purpose of the function is to display the specified HTML code inside the specified HTML element. In the render() method, we can read props and state and return our JSX code to the root component of our app.
+
+## What is state in React?
+The state is an instance of React Component Class that can be defined as an object of a set of observable properties that control the behaviour of the component. In other words, the State of a component is an object that holds some information that may change over the lifetime of the component.
