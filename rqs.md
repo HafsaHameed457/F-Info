@@ -56,3 +56,11 @@ In general, browsers are not capable of reading JSX and only can read pure JavaS
 ## How to create an event in React?
 
 To create an event in React, attach an event handler like onClick, onChange, etc., to a JSX element. Define the handler function to specify the action when the event is triggered, such as updating state or executing logic.
+
+## What is a key in React?
+
+A “key” is a special string attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are used to give an identity to the elements in the lists.
+
+## Explain the use of render method in React?
+
+React renders HTML to the web page by using a function called render(). The purpose of the function is to display the specified HTML code inside the specified HTML element. In the render() method, we can read props and state and return our JSX code to the root component of our app.
