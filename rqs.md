@@ -23,3 +23,7 @@ Virtual DOM: It is a lightweight copy of the actual DOM which makes DOM manipula
 ## Explain props and state in React with differences
 
 Props are used to pass data from one component to another. The state is local data storage that is local to the component only and cannot be passed to other components.
+
+## What is virtual DOM in React?
+
+The Virtual DOM in React is an in-memory representation of the actual DOM. It helps React efficiently update and render the user interface by comparing the current and previous virtual DOM states using a process called diffing.
