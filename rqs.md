@@ -52,3 +52,7 @@ Class Components: The class components are a little more complex than the functi
 ## How do browsers read JSX?
 
 In general, browsers are not capable of reading JSX and only can read pure JavaScript. The web browsers read JSX with the help of a transpiler. Transpilers are used to convert JSX into JavaScript. The transpiler used is called Babel.
+
+## How to create an event in React?
+
+To create an event in React, attach an event handler like onClick, onChange, etc., to a JSX element. Define the handler function to specify the action when the event is triggered, such as updating state or executing logic.
