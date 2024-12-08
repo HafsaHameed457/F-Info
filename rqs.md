@@ -224,3 +224,23 @@ Axios, which is a popular library is mainly used to send asynchronous HTTP reque
 
 This popular library is used to communicate with the backend. Axios supports the Promise API, native to JS ES6.
 Using Axios we make API requests in our application. Once the request is made we get the data in Return, and then we use this data in our project. 
+
+
+## Explain provider and consumer in ContextAPI?
+
+A provider is used to provide context to the whole application whereas a consumer consume the context provided by nearest provider. In other words The Provider acts as a parent it passes the state to its children whereas the Consumer uses the state that has been passed.
+
+## Explain CORS in React?
+In ReactJS, Cross-Origin Resource Sharing (CORS) refers to the method that allows you to make requests to the server deployed at a different domain. As a reference, if the frontend and backend are at two different domains, we need CORS there.
+
+We can setup CORS evironment in frontend using two methods:
+
+axios
+fetch
+
+## What is axios and how to use it in React?
+Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints. This library is very useful to perform CRUD operations.
+
+This popular library is used to communicate with the backend. Axios supports the Promise API, native to JS ES6.
+Using Axios we make API requests in our application. Once the request is made we get the data in Return, and then we use this data in our project. 
+
