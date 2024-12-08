@@ -72,4 +72,18 @@ The state is an instance of React Component Class that can be defined as an obje
 
 React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component
 
-We can access any props inside from the component’s class to which the props is passed. The props can be accessed as shown below:
+## What is higher-order component in React?
+
+Higher-order components or HOC is the advanced method of reusing the component functionality logic. It simply takes the original component and returns the enhanced component. HOC are beneficial as they are easy to code and read. Also, helps to get rid of copying the same logic in every component.
+
+## Functional vs class components
+
+A functional component is just a plain JavaScript pure function that accepts props as an argument 	A class component requires you to extend from React. Component and create a render function 
+No render method used	It must have the render() method returning JSX 
+Also known as Stateless components 	Also known as Stateful components
+React lifecycle methods (for example, componentDidMount) cannot be used in functional components.	React lifecycle methods can be used inside class components (for example, componentDidMount).
+Constructors are not used.	Constructor is used as it needs to store state. 
+
+## Explain one way data binding in React?
+
+ReactJS uses one-way data binding which can be Component to View or View to Component. It is also known as one-way data flow, which means the data has one, and only one way to be transferred to other parts of the application. In essence, this means child components are not able to update the data that is coming from the parent component. It is easy to debug and less prone to errors.
