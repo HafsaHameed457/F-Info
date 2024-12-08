@@ -1,0 +1,2 @@
+1. What is ReactJS?
+ReactJS is a JavaScript library used to build reusable components for the view layer in MVC architecture. It is highly efficient and uses a virtual DOM to render components. It works on the client side and is written in JSX.
