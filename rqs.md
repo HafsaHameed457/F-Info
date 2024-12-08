@@ -259,3 +259,13 @@ The useMemo is a hook used in the functional component of react that returns a m
 useEffect is a function that can be used as an alternative of lifecycle methods such as componentDidMount, componenetWillUnmount, componentDidUpdate in funcitonal components
 useCallback can be used when we want to prevent unnecessary renders from the chld components. It helpd to resolve side effects
 useMemo is used when we want to re-render on based on cache values as makes the application faster
+
+## Explain the types of router in React?
+There are basically three types of router in React:
+
+Memory Router:The memory router keeps the URL changes in memory not in the user browsers.
+Browser Router : It uses HTML 5 history API (i.e. pushState, replaceState, and popState API) to keep your UI in sync with the URL
+Hash Router: Hash router uses client-side hash routing. It uses the hash portion of the URL (i.e. window.location.hash) to keep your UI in sync with the URL. 
+
+## What is StrictMode in React ?
+The React StrictMode can be viewed as a helper component that allows developers to code efficiently and brings to their attention any suspicious code which might have been accidentally added to the application. The StrictMode can be applied to any section of the application, not necessarily to the entire application
