@@ -254,3 +254,8 @@ Flux architecture in Redux is a design pattern used for managing application sta
 ## Explain the useMemo hook in react?
 
 The useMemo is a hook used in the functional component of react that returns a memoized value. In Computer Science, memoization is a concept used in general when we don’t need to recompute the function with a given argument for the next time as it returns the cached result. A memoized function remembers the results of output for a given set of inputs.
+
+## When to use useCallback, useMemo and useEffect ?
+useEffect is a function that can be used as an alternative of lifecycle methods such as componentDidMount, componenetWillUnmount, componentDidUpdate in funcitonal components
+useCallback can be used when we want to prevent unnecessary renders from the chld components. It helpd to resolve side effects
+useMemo is used when we want to re-render on based on cache values as makes the application faster
