@@ -244,3 +244,5 @@ Axios, which is a popular library is mainly used to send asynchronous HTTP reque
 This popular library is used to communicate with the backend. Axios supports the Promise API, native to JS ES6.
 Using Axios we make API requests in our application. Once the request is made we get the data in Return, and then we use this data in our project. 
 
+## What is React-Material UI?
+React Material UI is an open-source React component library, offering prebuilt components for creating React applications. Developed by Google in 2014, it’s compatible with JavaScript frameworks like Angular.js and Vue.js. Renowned for its quality designs and easy customization, it’s favored by developers for rapid development.
