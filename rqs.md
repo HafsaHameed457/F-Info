@@ -48,3 +48,7 @@ A Component is one of the core building blocks of React. In other words, we can 
 Functional Components: Functional components are simply javascript functions. We can create a functional component in React by writing a javascript function. 
 
 Class Components: The class components are a little more complex than the functional components. The functional components are not aware of the other components in your program whereas the class components can work with each other. We can pass data from one class component to another class component.
+
+## How do browsers read JSX?
+
+In general, browsers are not capable of reading JSX and only can read pure JavaScript. The web browsers read JSX with the help of a transpiler. Transpilers are used to convert JSX into JavaScript. The transpiler used is called Babel.
