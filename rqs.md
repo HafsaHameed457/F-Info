@@ -98,3 +98,12 @@ Conditional rendering in React involves selectively rendering components based o
 
 React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
 
+## Explain the components of a react-router
+
+The main components of a react-router are:
+
+Router(usually imported as BrowserRouter):  It is the parent component that is used to store all of the other components. Everything within this will be part of the routing functionality
+Switch: The switch component is used to render only the first route that matches the location rather than rendering all matching routes.
+Route: This component checks the current URL and displays the component associated with that exact path. All routes are placed within the switch components.
+Link: The Link component is used to create links to different routes.
+
