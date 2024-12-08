@@ -177,4 +177,6 @@ Lazy loading
 
 __ TO DO__
 
+## What is react-redux?
 
+React-redux is a state management tool which makes it easier to pass these states from one component to another irrespective of their position in the component tree and hence prevents the complexity of the application. As the number of components in our application increases it becomes difficult to pass state as props to multiple components. To overcome this situation we use react-redux
