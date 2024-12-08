@@ -160,3 +160,15 @@ Styled-component Module allows us to write CSS within JavaScript in a very modul
 
 Prop drilling is basically a situation when the same data is being sent at almost every level due to requirements in the final level. The problem with Prop Drilling is that whenever data from the Parent component will be needed, it would have to come from each level, Regardless of the fact that it is not needed there and simply needed in last.
 
+## What is custom hooks in React?
+
+Custom hooks are normal JavaScript functions whose names start with “use” and they may call other hooks. We use custom hooks to maintain the DRY concept that is Don’t Repeat Yourself. It helps us to write a logic once and use it anywhere in the code.
+
+## How to optimize a React code?
+
+We can improve our react code by following these practices:
+
+Using binding functions in constructors
+Eliminating the use of inline attributes as they slow the process of loading
+Avoiding extra tags by using React fragments
+Lazy loading
