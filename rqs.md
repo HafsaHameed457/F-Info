@@ -87,3 +87,14 @@ Constructors are not used.	Constructor is used as it needs to store state.
 ## Explain one way data binding in React?
 
 ReactJS uses one-way data binding which can be Component to View or View to Component. It is also known as one-way data flow, which means the data has one, and only one way to be transferred to other parts of the application. In essence, this means child components are not able to update the data that is coming from the parent component. It is easy to debug and less prone to errors.
+
+-- Intermediate qs --
+
+## What is conditional rendering in React?
+
+Conditional rendering in React involves selectively rendering components based on specified conditions. By evaluating these conditions, developers can control which components are displayed, allowing for dynamic and responsive user interfaces in React applications.
+
+## What is react router?
+
+React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+
