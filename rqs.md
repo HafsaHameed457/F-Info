@@ -131,3 +131,8 @@ Refs are a function provided by React to access the DOM element and the React el
 ## What are hooks in React?
  Hooks are a new addition in React 16.8. They let developers use state and other React features without writing a class. Hooks doesn’t violate any existing React concepts. Instead, Hooks provide a direct API to react concepts such as props, state, context, refs and life-cycle
 
+## Explain the useState hook in React?
+The most used hook in React is the useState() hook. Using this hook we can declare a state variable inside a function but only one state variable can be declared using a single useState() hook. Whenever the useState() hook is used, the value of the state variable is changed and the new variable is stored in a new cell in the stack.
+
+When you use useState(), you declare a state variable and a function to update that state. React then manages this state internally and triggers a re-render of the component when the state changes. This allows functional components to maintain and update their internal state over time.
+
