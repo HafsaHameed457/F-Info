@@ -67,3 +67,9 @@ React renders HTML to the web page by using a function called render(). The purp
 
 ## What is state in React?
 The state is an instance of React Component Class that can be defined as an object of a set of observable properties that control the behaviour of the component. In other words, the State of a component is an object that holds some information that may change over the lifetime of the component.
+
+## Explain props in React?
+
+React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component
+
+We can access any props inside from the component’s class to which the props is passed. The props can be accessed as shown below:
