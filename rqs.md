@@ -107,3 +107,27 @@ Switch: The switch component is used to render only the first route that matches
 Route: This component checks the current URL and displays the component associated with that exact path. All routes are placed within the switch components.
 Link: The Link component is used to create links to different routes.
 
+## Explain the lifecycle methods of components
+A React Component can go through four stages of its life as follows. 
+
+Initialization: This is the stage where the component is constructed with the given Props and default state. This is done in the constructor of a Component Class.
+Mounting: Mounting is the stage of rendering the JSX returned by the render method itself.
+Updating: Updating is the stage when the state of a component is updated and the application is repainted.
+Unmounting: As the name suggests Unmounting is the final step of the component lifecycle where the component is removed from the page
+
+## Explain the methods used in mounting phase of components
+Mounting is the phase of the component lifecycle when the initialization of the component is completed and the component is mounted on the DOM and rendered for the first time on the webpage. he mounting phase consists of two such predefined functions as described below
+
+componentWillMount() Function: This function is invoked right before the component is mounted on the DOM.
+componentDidMount() Function: This function is invoked right after the component is mounted on the DOM.
+
+## What is this.setState function in React?
+We use the setState() method to change the state object. It ensures that the component has been updated and calls for re-rendering of the component. The state object of a component may contain multiple attributes and React allows using setState() function to update only a subset of those attributes as well as using multiple setState() methods to update each attribute value independently.
+
+## What is the use of ref in React?
+Refs are a function provided by React to access the DOM element and the React element that you might have created on your own. They are used in cases where we want to change the value of a child component, without making use of props and all. They have wide functionality as we can use callbacks with them.
+
+
+## What are hooks in React?
+ Hooks are a new addition in React 16.8. They let developers use state and other React features without writing a class. Hooks doesn’t violate any existing React concepts. Instead, Hooks provide a direct API to react concepts such as props, state, context, refs and life-cycle
+
