@@ -198,3 +198,7 @@ Redux Store: It is an object that holds the application state
 Action Creators: These are functions that return actions (objects).
 Actions: Actions are simple objects which conventionally have two properties- type and payload 
 Reducers: Reducers are pure functions that update the state of the application in response to actions
+
+## How can we combine multiple reducers in React?
+
+When working with Redux we sometimes require multiple reducers. In many cases, multiple actions are needed, resulting in the requirement of multiple reducers. However, this can become problematic when creating the Redux store. To manage the multiple reducers we have function called combineReducers in the redux. This basically helps to combine multiple reducers into a single unit and use them.
