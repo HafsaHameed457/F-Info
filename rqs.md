@@ -39,3 +39,12 @@ Declarative UI: With the Virtual DOM, React allows developers to write code in a
 ## What is JSX?
 
 JSX is basically a syntax extension of regular JavaScript and is used to create React elements. These elements are then rendered to the React DOM. All the React components are written in JSX. To embed any JavaScript expression in a piece of code written in JSX we will have to wrap that expression in curly braces {}. 
+
+## What are components and their type in React?
+A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React will be made up of pieces called components. Components make the task of building UIs much easier. 
+
+ In React, we mainly have two types of components: 
+
+Functional Components: Functional components are simply javascript functions. We can create a functional component in React by writing a javascript function. 
+
+Class Components: The class components are a little more complex than the functional components. The functional components are not aware of the other components in your program whereas the class components can work with each other. We can pass data from one class component to another class component.
